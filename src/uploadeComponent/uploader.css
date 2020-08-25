@@ -1,0 +1,71 @@
+
+.table{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .table thead tr:nth-child(odd), .table tbody tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+   .table tr {
+     transition: all 0.2s ease;
+     text-align: center;
+   }
+  .table tr:hover {
+      background: #ddd;
+      transform: scale(1.1);
+      transform: translateX(1px);
+      
+  }
+
+ 
+  .table tr td {
+      padding: 6px;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 12px;
+      
+
+  }
+  /* 
+  **table head section 
+  *
+  */
+  .table thead tr:first-child {
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(240, 234, 234);
+    background-color: gray;      
+}
+  .uploader{
+      max-width: 85%;
+      margin: 50px auto;
+      padding: 50px 46px ;
+      background-color: rgb(255, 255, 255);
+      box-shadow: rgba(87, 87, 87, 0.2) 0px 0px 12px 1px;
+  }
+  .uploaderCard {
+    width: 30%;
+    text-align: right;
+    margin: 20px auto 20px auto;
+    z-index: 1;
+  }
+  .tableData  {
+    max-width: 97%;
+    margin: 0px auto;
+    overflow-x: auto;   
+  }
+  img{
+    width: 135px;
+    height: 100px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+img { transition: all .2s ease-in-out; }
+img:hover { transform: scale(1.05); }
+
+
+.pagination {
+  padding: 20px;
+}
