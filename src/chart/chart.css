@@ -1,0 +1,7 @@
+.chart {
+    max-width: 100%;
+    overflow-x:auto ;
+    overflow-y:auto ;
+    height: 100vh;
+    box-sizing: border-box;
+}
